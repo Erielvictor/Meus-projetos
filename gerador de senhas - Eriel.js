@@ -5,7 +5,7 @@ const passwordInput = document.querySelector(".input-box input");
 const passIndicator = document.querySelector(".pass-indicator");
 const generateBtn = document.querySelector(".generate-btn");
 
-const characters = {
+const characters = { //mudar as constantes vai causar conflito no código html-css
 lowercase: "abcdefghijklmnopqrstuvwxyz",
 uppercase: "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
 numbers: "0123456789",
